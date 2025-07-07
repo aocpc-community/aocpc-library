@@ -8,7 +8,6 @@
   - `__builtin_(ctz/ctzll/clz/clzll/popcount)(g++, clang++)` ou `_BitScan(Forward/Reverse)(Visual Studio)` funcionam.
 
 ## Como Instalar
-
 ### g++ / clang++
 
 A maneira mais fácil é colocar a pasta `aocpc` no mesmo local que `main.cpp` e executar `g++ main.cpp -std=c++14 -I .`, como mencionado no índice. Aqui, `.` é o símbolo que representa o diretório atual (você deve digitar um espaço e um ponto após `I`).
@@ -19,7 +18,7 @@ Se você não quiser copiar a pasta `aocpc` manualmente, faça o seguinte:
 - Especifique o local da pasta `aocpc` usando a variável de ambiente `CPLUS_INCLUDE_PATH` como `CPLUS_INCLUDE_PATH="/caminho/para/ac-library"`. (No Windows, digite algo como `C:\caminho\para\ac-library` no campo da variável `CPLUS_INCLUDE_PATH` na [Janela de Variáveis de Ambiente](https://img.aocpc.jp/practice2/01333b7c5575b09b5868376ef242aa52.png). Observe que você deve usar barras invertidas, não barras normais.) Depois, você pode compilar apenas com `g++ main.cpp -std=c++14`.
 
 ### Visual Studio
-
+[Windows]
 Visual Studio 2019 / 2022 é suportado. Atualize-o se estiver usando uma versão antiga.
 
 Se o Visual Studio estiver instalado, haverá uma pasta como a seguinte:
@@ -30,6 +29,10 @@ Se o Visual Studio estiver instalado, haverá uma pasta como a seguinte:
 Copie a pasta `aocpc` para lá, ou seja, coloque-a de forma que o caminho fique assim:
 
 - `C:\Program Files\Microsoft Visual Studio\2022\(Community, Professional ou Enterprise)\VC\Tools\MSVC\(Algum número, ex. 14.35.32215)\include\aocpc\dsu.hpp`
+
+[Mac]
+
+[Linux]
 
 ### Exemplo de Uso do Debug
 

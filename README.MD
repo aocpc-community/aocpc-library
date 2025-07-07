@@ -6,7 +6,7 @@ Ela traz ferramentas úteis como entrada/saída rápida, ajuda na depuração e 
 
 ## Como Instalar
 
-- Existe uma pasta chamada `aocpc` dentro da pasta `ac-library`, após extrair o arquivo ZIP.
+- Existe uma pasta chamada `aocpc` dentro da pasta `aocpc-library`, após extrair o arquivo ZIP.
 - Com o g++, você pode compilar usando `g++ main.cpp -std=c++14 -I .`, colocando a pasta `atcoder` no mesmo diretório que o `main.cpp`.
   - É necessário compilar com `-std=c++14` ou `-std=c++17`.
 - Consulte o [Apêndice](./docs/appendix.md) para mais detalhes.
