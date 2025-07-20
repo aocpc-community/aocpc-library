@@ -48,3 +48,31 @@ int main() {
     
     return 0;
 }
+```
+----
+## Submission in an online judge
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#ifdef LOCAL
+#include "aocpc/all"
+using namespace aocpc;
+#else
+#define dbg(...)
+#endif
+
+int main() {
+    int x = 42;
+    string s = "hello";
+    vector<int> v = {1, 2, 3};
+    
+    dbg(x);          // Prints: [ x ]: 42
+    dbg(s);          // Prints: [ s ]: hello
+    dbg(v);          // Prints: [ v ]: [ 1, 2, 3 ]
+    dbg(x + 10, s);  // Prints: [ x + 10, s ]: 52 hello
+    
+    return 0;
+}
