@@ -57,7 +57,7 @@ int main() {
 
 using namespace std;
 
-#ifdef LOCAL
+#ifndef ONLINE_JUDGE
 #include "aocpc/all"
 using namespace aocpc;
 #else
@@ -76,3 +76,4 @@ int main() {
     
     return 0;
 }
+```
